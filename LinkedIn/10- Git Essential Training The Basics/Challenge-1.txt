@@ -1,0 +1,199 @@
+- The first part I made the changes useing my IDE
+- then I worked with git and this what I made:
+G:\Test\explore_california(master)
+λ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   assets/images/asterisk.gif
+        modified:   assets/images/back_bug.gif
+        modified:   assets/images/backpack_bug.gif
+        modified:   assets/images/backpack_main.jpg
+        modified:   assets/images/big_sur.jpg
+        modified:   assets/images/bikes.jpg
+        modified:   assets/images/book_bug.gif
+        modified:   assets/images/breakup.jpg
+        modified:   assets/images/bridge.jpg
+        modified:   assets/images/calm_bug.gif
+        modified:   assets/images/calm_desc_bug.gif
+        modified:   assets/images/cycle_desc_bug.gif
+        modified:   assets/images/cycle_logo.png
+        modified:   assets/images/cyclist.jpg
+        modified:   assets/images/desert_bug.gif
+        modified:   assets/images/desert_desc_bug.gif
+        modified:   assets/images/emerald_bay.jpg
+        modified:   assets/images/flag.jpg
+        modified:   assets/images/home_page_back.jpg
+        modified:   assets/images/kids_desc_bug.gif
+        modified:   assets/images/logo.gif
+        modified:   assets/images/looking.jpg
+        modified:   assets/images/map_bigsur.gif
+        modified:   assets/images/map_channel.gif
+        modified:   assets/images/map_valley.gif
+        modified:   assets/images/map_whitney.gif
+        modified:   assets/images/map_yosemite.gif
+        modified:   assets/images/mission_look.jpg
+        modified:   assets/images/more_bug.gif
+        modified:   assets/images/nature_desc_bug.gif
+        modified:   assets/images/oranges.jpg
+        modified:   assets/images/return_top.gif
+        modified:   assets/images/snow_desc_bug.gif
+        modified:   assets/images/springs_desc_bug.gif
+        modified:   assets/images/star_bullet.gif
+        modified:   assets/images/taste_bug.gif
+        modified:   assets/images/taste_desc_bug.gif
+        modified:   assets/images/thead_back.gif
+        modified:   assets/images/tour_badge.png
+        modified:   assets/images/ui/ui-bg_diagonals-thick_18_b81900_40x40.png
+        modified:   assets/images/ui/ui-bg_diagonals-thick_20_666666_40x40.png
+        modified:   assets/images/ui/ui-bg_flat_10_000000_40x100.png
+        modified:   assets/images/ui/ui-bg_glass_100_f0e7c7_1x400.png
+        modified:   assets/images/ui/ui-bg_glass_65_ffffff_1x400.png
+        modified:   assets/images/ui/ui-bg_highlight-soft_100_eeeeee_1x100.png
+        modified:   assets/images/ui/ui-bg_highlight-soft_100_f6f6f6_1x100.png
+        modified:   assets/images/ui/ui-bg_highlight-soft_35_cb7d20_1x100.png
+        modified:   assets/images/ui/ui-bg_highlight-soft_75_ffe45c_1x100.png
+        modified:   assets/images/ui/ui-icons_222222_256x240.png
+        modified:   assets/images/ui/ui-icons_228ef1_256x240.png
+        modified:   assets/images/ui/ui-icons_cb7d20_256x240.png
+        modified:   assets/images/ui/ui-icons_ef8c08_256x240.png
+        modified:   assets/images/ui/ui-icons_ffd27a_256x240.png
+        modified:   assets/images/ui/ui-icons_ffffff_256x240.png
+        modified:   assets/images/wrapper_back.jpg
+        modified:   assets/javascripts/menus.js
+        modified:   assets/stylesheets/main.css
+        modified:   contact.html
+        modified:   explorers.html
+        modified:   index.html
+        modified:   mission.html
+        modified:   resources.html
+        modified:   resources/faq.html
+        modified:   support.html
+        modified:   tours.html
+        modified:   tours/tour_detail_backpack_cal.html
+        modified:   tours/tour_detail_bigsur.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   explorers.html
+
+
+G:\Test\explore_california(master)
+λ git diff
+warning: LF will be replaced by CRLF in explorers.html.
+The file will have its original line endings in your working directory
+diff --git a/explorers.html b/explorers.html
+index 323e5b1..db42b55 100644
+--- a/explorers.html
++++ b/explorers.html
+@@ -64,7 +64,7 @@
+           </div>
+         </div>
+         <div id="mainArticle">
+-          <h1>Come make a few friends</h1>
++          <h1>Make new friends</h1>
+           <img src="assets/images/bikes.jpg" alt="Come join us!" class="articleImage" />
+           <div class="multiCol">
+             <p>The Explorers are a community of people who love to travel, love California, and want to share their journeys and experiences with others. Joining is free, so if you haven't signed up yet, <a href="explorers/join.html">do so now!</a></p>
+@@ -87,13 +87,13 @@
+           <h1>Monthly Specials</h1>
+           <h2 class="top"><img src="assets/images/calm_bug.gif" alt="California Calm" width="75" height="75" />California Calm</h2>
+           <p>Day Spa Package <br />
+-            <a href="tours/tour_detail_cycle.html">$250</a></p>
++            <a href="tours/tour_detail_cycle.html">$270</a></p>
+           <h2><img src="assets/images/desert_bug.gif" alt="From desert to sea" width="75" height="75" />From Desert to Sea</h2>
+           <p>2 Day Salton Sea <br />
+             <a href="tours/tour_detail_cycle.html">$350</a></p>
+           <h2><img src="assets/images/backpack_bug.gif" alt="Backpack Cal" width="75" height="41" />Backpack Cal</h2>
+           <p>Big Sur Retreat <br />
+-            <a href="tours/tour_detail_cycle.html">$620</a></p>
++            <a href="tours/tour_detail_cycle.html">$750</a></p>
+           <h2><img src="assets/images/taste_bug.gif" alt="Taste of California" width="75" height="75" />Taste of California</h2>
+           <p>Tapas &amp; Groves <br />
+             <a href="tours/tour_detail_taste.html">$150</a></p>
+
+G:\Test\explore_california(master)
+λ git add .
+warning: LF will be replaced by CRLF in explorers.html.
+The file will have its original line endings in your working directory
+
+G:\Test\explore_california(master)
+λ git commit -m "changes were done"
+[master 27b458d] changes were done
+ 67 files changed, 4 insertions(+), 4 deletions(-)
+ mode change 100755 => 100644 assets/images/asterisk.gif
+ mode change 100755 => 100644 assets/images/back_bug.gif
+ mode change 100755 => 100644 assets/images/backpack_bug.gif
+ mode change 100755 => 100644 assets/images/backpack_main.jpg
+ mode change 100755 => 100644 assets/images/big_sur.jpg
+ mode change 100755 => 100644 assets/images/bikes.jpg
+ mode change 100755 => 100644 assets/images/book_bug.gif
+ mode change 100755 => 100644 assets/images/breakup.jpg
+ mode change 100755 => 100644 assets/images/bridge.jpg
+ mode change 100755 => 100644 assets/images/calm_bug.gif
+ mode change 100755 => 100644 assets/images/calm_desc_bug.gif
+ mode change 100755 => 100644 assets/images/cycle_desc_bug.gif
+ mode change 100755 => 100644 assets/images/cycle_logo.png
+ mode change 100755 => 100644 assets/images/cyclist.jpg
+ mode change 100755 => 100644 assets/images/desert_bug.gif
+ mode change 100755 => 100644 assets/images/desert_desc_bug.gif
+ mode change 100755 => 100644 assets/images/emerald_bay.jpg
+ mode change 100755 => 100644 assets/images/flag.jpg
+ mode change 100755 => 100644 assets/images/home_page_back.jpg
+ mode change 100755 => 100644 assets/images/kids_desc_bug.gif
+ mode change 100755 => 100644 assets/images/logo.gif
+ mode change 100755 => 100644 assets/images/looking.jpg
+ mode change 100755 => 100644 assets/images/map_bigsur.gif
+ mode change 100755 => 100644 assets/images/map_channel.gif
+ mode change 100755 => 100644 assets/images/map_valley.gif
+ mode change 100755 => 100644 assets/images/map_whitney.gif
+ mode change 100755 => 100644 assets/images/map_yosemite.gif
+ mode change 100755 => 100644 assets/images/mission_look.jpg
+ mode change 100755 => 100644 assets/images/more_bug.gif
+ mode change 100755 => 100644 assets/images/nature_desc_bug.gif
+ mode change 100755 => 100644 assets/images/oranges.jpg
+ mode change 100755 => 100644 assets/images/return_top.gif
+ mode change 100755 => 100644 assets/images/snow_desc_bug.gif
+ mode change 100755 => 100644 assets/images/springs_desc_bug.gif
+ mode change 100755 => 100644 assets/images/star_bullet.gif
+ mode change 100755 => 100644 assets/images/taste_bug.gif
+ mode change 100755 => 100644 assets/images/taste_desc_bug.gif
+ mode change 100755 => 100644 assets/images/thead_back.gif
+ mode change 100755 => 100644 assets/images/tour_badge.png
+ mode change 100755 => 100644 assets/images/ui/ui-bg_diagonals-thick_18_b81900_40x40.png
+ mode change 100755 => 100644 assets/images/ui/ui-bg_diagonals-thick_20_666666_40x40.png
+ mode change 100755 => 100644 assets/images/ui/ui-bg_flat_10_000000_40x100.png
+ mode change 100755 => 100644 assets/images/ui/ui-bg_glass_100_f0e7c7_1x400.png
+ mode change 100755 => 100644 assets/images/ui/ui-bg_glass_65_ffffff_1x400.png
+ mode change 100755 => 100644 assets/images/ui/ui-bg_highlight-soft_100_eeeeee_1x100.png
+ mode change 100755 => 100644 assets/images/ui/ui-bg_highlight-soft_100_f6f6f6_1x100.png
+ mode change 100755 => 100644 assets/images/ui/ui-bg_highlight-soft_35_cb7d20_1x100.png
+ mode change 100755 => 100644 assets/images/ui/ui-bg_highlight-soft_75_ffe45c_1x100.png
+ mode change 100755 => 100644 assets/images/ui/ui-icons_222222_256x240.png
+ mode change 100755 => 100644 assets/images/ui/ui-icons_228ef1_256x240.png
+ mode change 100755 => 100644 assets/images/ui/ui-icons_cb7d20_256x240.png
+ mode change 100755 => 100644 assets/images/ui/ui-icons_ef8c08_256x240.png
+ mode change 100755 => 100644 assets/images/ui/ui-icons_ffd27a_256x240.png
+ mode change 100755 => 100644 assets/images/ui/ui-icons_ffffff_256x240.png
+ mode change 100755 => 100644 assets/images/wrapper_back.jpg
+ mode change 100755 => 100644 assets/javascripts/menus.js
+ mode change 100755 => 100644 assets/stylesheets/main.css
+ mode change 100755 => 100644 contact.html
+ mode change 100755 => 100644 explorers.html
+ mode change 100755 => 100644 index.html
+ mode change 100755 => 100644 mission.html
+ mode change 100755 => 100644 resources.html
+ mode change 100755 => 100644 resources/faq.html
+ mode change 100755 => 100644 support.html
+ mode change 100755 => 100644 tours.html
+ mode change 100755 => 100644 tours/tour_detail_backpack_cal.html
+ mode change 100755 => 100644 tours/tour_detail_bigsur.html
+
+G:\Test\explore_california(master)
+λ git status
+On branch master
+nothing to commit, working tree clean
+
+G:\Test\explore_california(master)
+λ

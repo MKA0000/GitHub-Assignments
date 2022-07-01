@@ -1,0 +1,66 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+
+}
+.accordio{
+    width: 700px;
+    margin: 100px auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.accordio-item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 24px;
+    box-shadow: 0 0 32px rgb(0 0 0 / 10%);
+    padding: 24px;
+
+
+}
+
+.text, .number {
+    font-size: 24px;
+    color: green;
+    font-weight: 500;
+}
+.number {
+    color: #ced4da;
+}
+.fa {
+    font-size: 22px;
+    color: green;
+}
+
+
+.childe-2 {
+    column-gap: 24px;
+    row-gap: 32px;
+
+    border-top: 4px solid green;
+}
+.childe-2 .number {
+    color: green;
+}
+
+.hidden-text {
+    grid-column: 2;
+    line-height: 1.6;
+}
+
+.hidden-text p {
+    margin-bottom: 24px;
+}
+
+.hidden-text ul {
+    color: #868e96;
+    margin-left: 24px;
+}
